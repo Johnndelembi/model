@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import PyTorch
+import TensorFlow
 from transformers import pipeline
 
 model = pipeline("table-question-answering", model="google/tapas-base-finetuned-wtq")
